@@ -47,4 +47,13 @@ html{
   padding-top: 10%;
   padding-bottom: 10%;
 }
+.container h2 {
+    text-align: center;
+    padding: 40px;
+}
+h3 {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
 
