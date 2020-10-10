@@ -1,4 +1,4 @@
-.welcome {
+.container-fluid {
     background-image: url("../img/h_img.jpg");
     background-position: center;
     background-size: cover;
@@ -13,14 +13,14 @@
 
       
 }
-.welcome h1 {
+.container-fluid h1 {
     padding:2px;
     margin: 50px;
     
     
 
 }
-.welcome p{
+.container-fluid p{
     padding: 2px;
 }
 #logo{
@@ -29,11 +29,11 @@
     width: 70px;
     height: 70px;
 }
-/*#mouse{
+#mouse{
     padding-top : 22px;
     margin-top: 10%;
-    padding-bottom: 30px; */
-  
+    padding-bottom: 30px; 
+
    
 }
 @keyframes bounce {
@@ -46,5 +46,5 @@
     60% {
       transform: translateY(-45px);
     }
-}
+}*/
  
