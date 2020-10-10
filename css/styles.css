@@ -36,12 +36,14 @@ html{
 
 }
 .services {
-    background-image: url('../img/s_image.jpg');
+  background-image: url('../img/s_image.jpg');
   background-position: center ;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  padding-top: 9%;
   font-size: 18px;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
+
