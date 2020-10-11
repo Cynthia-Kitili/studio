@@ -36,8 +36,8 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#first").mouseover(function(){
-      $("#first").show();
+      $("#tile1").show();
     }).mouseout(function(){
-      $("#first").hide();
+      $("#tile1").hide();
     });
   });  
