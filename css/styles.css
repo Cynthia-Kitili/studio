@@ -95,6 +95,23 @@ input[type=text],input[type=email],#comment{
   font-size: 20px;
  
 }
+.form-control::-webkit-input-placeholder { 
+  color: white; 
+
+}
+#text {
+  width: 45%;
+  margin-left: 0%;
+  margin-right: 30px;
+}
+#email{
+  width:45%;
+}
+#comment{
+  margin-left: 12.5%;
+  width: 80%;
+  margin-right:30%
+}
 footer {
   text-align: center;
   padding:30px;
