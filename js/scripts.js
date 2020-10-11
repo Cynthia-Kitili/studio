@@ -83,4 +83,11 @@ $(document).ready(function(){
     }).mouseout(function(){
       $("#tile7").hide();
     });
-  });     
+  });  
+  $(document).ready(function(){
+    $("#eigth").mouseover(function(){
+      $("#tile8").show();
+    }).mouseout(function(){
+      $("#tile8").hide();
+    });
+  });       
