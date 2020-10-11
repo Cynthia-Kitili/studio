@@ -41,3 +41,10 @@ $(document).ready(function(){
       $("#tile1").hide();
     });
   });  
+  $(document).ready(function(){
+    $("#second").mouseover(function(){
+      $("#tile2").show();
+    }).mouseout(function(){
+      $("#tile2").hide();
+    });
+  });    
