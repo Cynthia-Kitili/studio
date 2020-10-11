@@ -23,7 +23,7 @@ $(document).ready(function(){
     });
   });
 
-  $(document).ready(function(){
+$(document).ready(function(){
     $("#product-image").click(function(){
       $("#product-image").slideDown('').hide('');
       $("#product").show('');
@@ -33,3 +33,11 @@ $(document).ready(function(){
       $("#product-image").slideDown('');
     });
   });
+
+$(document).ready(function(){
+    $("#first").mouseover(function(){
+      $("#first").show();
+    }).mouseout(function(){
+      $("#first").hide();
+    });
+  });  
