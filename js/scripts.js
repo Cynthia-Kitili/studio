@@ -47,4 +47,11 @@ $(document).ready(function(){
     }).mouseout(function(){
       $("#tile2").hide();
     });
-  });    
+  });   
+  $(document).ready(function(){
+    $("#third").mouseover(function(){
+      $("#tile3").show();
+    }).mouseout(function(){
+      $("#tile3").hide();
+    });
+  });     
