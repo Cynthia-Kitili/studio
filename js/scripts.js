@@ -63,3 +63,10 @@ $(document).ready(function(){
       $("#tile4").hide();
     });
   });  
+  $(document).ready(function(){
+    $("#fifth").mouseover(function(){
+      $("#tile5").show();
+    }).mouseout(function(){
+      $("#tile5").hide();
+    });
+  });    
