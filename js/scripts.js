@@ -54,4 +54,12 @@ $(document).ready(function(){
     }).mouseout(function(){
       $("#tile3").hide();
     });
-  });     
+  });   
+  
+  $(document).ready(function(){
+    $("#fourth").mouseover(function(){
+      $("#tile4").show();
+    }).mouseout(function(){
+      $("#tile4").hide();
+    });
+  });  
