@@ -70,3 +70,10 @@ $(document).ready(function(){
       $("#tile5").hide();
     });
   });    
+  $(document).ready(function(){
+    $("#sixth").mouseover(function(){
+      $("#tile6").show();
+    }).mouseout(function(){
+      $("#tile6").hide();
+    });
+  });    
