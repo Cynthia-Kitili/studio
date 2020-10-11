@@ -79,9 +79,17 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
- 
+
 }
-.input[type=text],input[type=email],#comment{ 
+.container2 h2{
+  padding:6px;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+}
+input[type=text],input[type=email],#comment{ 
   background: transparent;
   color: white;
   font-size: 20px;
