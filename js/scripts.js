@@ -90,4 +90,18 @@ $(document).ready(function(){
     }).mouseout(function(){
       $("#tile8").hide();
     });
-  });       
+  });  
+
+$(document).ready(function(){
+    $("form").submit(function(event){
+        var name=$("input#text").val();
+        var email=$("input#email").val();
+        var message=$("textarea#comment").val();
+        if ($("input#text").val() && $("input#email").val() && $("textarea#comment").val()){
+            alert("Hello"+ name+ ",we have received your message " + message+ ".Thank you for reaching out to us. We will contact you through via mail."+email);
+        }
+        else {
+            alert("Please make sure you fill in all the details before submitting the form.");
+        }
+    })
+})
