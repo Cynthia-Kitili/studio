@@ -22,3 +22,14 @@ $(document).ready(function(){
       $("#development-image").slideDown('');
     });
   });
+
+  $(document).ready(function(){
+    $("#product-image").click(function(){
+      $("#product-image").slideDown('').hide('');
+      $("#product").show('');
+    });
+    $("#product").click(function(){
+      $("#product").slideUp('');
+      $("#product-image").slideDown('');
+    });
+  });
