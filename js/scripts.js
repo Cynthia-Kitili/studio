@@ -98,7 +98,7 @@ $(document).ready(function(){
         var email=$("input#email").val();
         var message=$("textarea#comment").val();
         if ($("input#text").val() && $("input#email").val() && $("textarea#comment").val()){
-            alert("Hello"+ name+ ",we have received your message " + message+ ".Thank you for reaching out to us. We will contact you through via mail."+email);
+            alert("Hello"  + ""+name +"" + ",we have received your message "+ ""+ (message) +""+ ".Thank you for reaching out to us. We will contact you through the email address you have provided." +"" + email);
         }
         else {
             alert("Please make sure you fill in all the details before submitting the form.");
