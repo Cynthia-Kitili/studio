@@ -135,4 +135,43 @@ footer p{
   margin-top: 20px;
   
 }
+@media only screen and (min-width:485px and max-width:850px){
+  #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 16px;
+    padding-top: 20%;
+    font-size: 15px;
+  }
+  .col-md-3 img{
+    width:100%;
+    margin: 20px;
+  }
+  #portfolio{
+    margin-left:8%;
+    margin-right: 16%; 
+  }
+  button{
+    margin-left: 2%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;1
+    
+  }
+  #text{
+    width: 84%;
+    margin-left: 4%;
+    padding-bottom: 10px;
+  }
+  #email{
+    width: 100%;
+    margin-left: 4%;
+    margin-bottom: 20px;
+  }
+  #comment{
+    margin-left: 4%;
+    width: 84%;
+  }
+}
+}
 
