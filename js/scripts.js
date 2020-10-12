@@ -11,8 +11,6 @@ $(document).ready(function(){
     
   });
 
-
-
 $(document).ready(function(){
     $("#development-image").click(function(){
       $("#development-image").slideDown('').hide('');
@@ -107,19 +105,13 @@ $(document).ready(function(){
     })
 })
 
-var unirest = require("unirest");
-
-var req = unirest("POST", "https://rapidapi.p.rapidapi.com/addWorkflowEmailSubscriber");
-
-req.headers({
-	"x-rapidapi-host": "MailChimpdimashirokovV1.p.rapidapi.com",
-	"x-rapidapi-key": "5956bb5e81msh1392e70fa6f87bbp1d3377jsn19eb3558d940",
-	"useQueryString": true
-});
-
-
-req.end(function (res) {
-	if (res.error) throw new Error(res.error);
-
-	console.log(res.body);
-});
+MailchimpSDK.initialize(token: b8c31b03e3d5330dcbbb131f6f31facf-us2)
+var contact: Contact = Contact(emailAddress: "nyambucynthia98@gmail.com")
+MailchimpSDK.createOrUpdate(contact: contact) { result in
+    switch result {
+    case .success:
+        print("Successfully added or updated contact")
+    case .failure(let error):
+        print("Error: \(error.localizedDescription)")
+    }
+}

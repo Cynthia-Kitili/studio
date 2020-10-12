@@ -21,7 +21,8 @@
   
 }
 .welcome p{
-  padding: 1px;
+  padding: 50px;
+  font-size: 140%;
 }
 #logo{
   margin-top: 12px;
