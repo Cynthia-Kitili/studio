@@ -97,7 +97,7 @@ $(document).ready(function(){
         var email=$("input#email").val();
         var message=$("textarea#comment").val();
         if ($("input#text").val() && $("input#email").val() && $("textarea#comment").val()){
-            alert("Hello"  + ""+name +"" + ",we have received your message "+ ""+ (message) +""+ ".Thank you for reaching out to us. We will contact you through the email address you have provided." +"" + email);
+            alert("Hello"  + "..."  +name +  "..." +  ",we have received your message "  + "..."  + (message)  +  "..."  +  ".Thank you for reaching out to us. We will contact you through the email address you have provided.  " +"..."   +  email);
         }
         else {
             alert("Please make sure you fill in all the details before submitting the form.");
@@ -105,13 +105,21 @@ $(document).ready(function(){
     })
 })
 
-MailchimpSDK.initialize(token: b8c31b03e3d5330dcbbb131f6f31facf-us2)
-var contact: Contact = Contact(emailAddress: "nyambucynthia98@gmail.com")
-MailchimpSDK.createOrUpdate(contact: contact) { result in
-    switch result {
-    case .success:
-        print("Successfully added or updated contact")
-    case .failure(let error):
-        print("Error: \(error.localizedDescription)")
-    }
-}
+
+
+var unirest = require("unirest");
+
+var req = unirest("POST", "https://rapidapi.p.rapidapi.com/addWorkflowEmailSubscriber");
+
+req.headers({
+	"x-rapidapi-host": "MailChimpdimashirokovV1.p.rapidapi.com",
+	"x-rapidapi-key": "5956bb5e81msh1392e70fa6f87bbp1d3377jsn19eb3558d940",
+	"useQueryString": true
+});
+
+
+req.end(function (res) {
+	if (res.error) throw new Error(res.error);
+
+	console.log(res.body);
+});
