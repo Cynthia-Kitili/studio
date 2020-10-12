@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 html{
-  scroll-behavior: smooth;
+
 }
 .welcome{
   background-image: url('../img/h_img.jpg');
@@ -11,6 +11,7 @@ html{
   text-align: center;
   padding-top:17%; 
   padding-bottom: 10%;
+  font-family: 'Playfair Display', serif;
   
 }
 .welcome h1{
@@ -34,6 +35,7 @@ html{
 }
 .about {
     text-align:center;
+    font-family: 'Playfair Display', serif;
 
 }
 .services {
@@ -46,6 +48,7 @@ html{
   font-size: 18px;
   padding-top: 10%;
   padding-bottom: 10%;
+  font-family: 'Playfair Display', serif;
 }
 .container h2 {
     text-align: center;
@@ -61,6 +64,7 @@ h2 {
 .portolio {
   text-align: center;
   padding-top:40px;
+  font-family: 'Playfair Display', serif;
 }
 #portfolio-images{
   display: flex;
@@ -79,6 +83,7 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  font-family: 'Playfair Display', serif;
 
 }
 .container2 h2{
@@ -89,7 +94,7 @@ h2 {
   padding-bottom: 20px;
 
 }
-#overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+#tile1,#tile2,#tile3,#tile4,#tile5,#tile6,#tile7,#tile8{
   display: none;
   color: black;
   width: 100%;
@@ -102,11 +107,13 @@ h2 {
   text-align: center;
   font-size: 30px;
   padding-top: 50%;
+  font-family: 'Playfair Display', serif;
 }
 input[type=text],input[type=email],#comment{ 
   background: transparent;
   color: white;
   font-size: 20px;
+  font-family: 'Playfair Display', serif;
  
 }
 .form-control::-webkit-input-placeholder { 
@@ -133,7 +140,7 @@ footer {
 }
 footer p{
   margin-top: 20px;
-  
+  font-family: 'Playfair Display', serif;
 }
 @media only screen and (min-width:485px and max-width:850px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
@@ -155,7 +162,7 @@ footer p{
   button{
     margin-left: 2%;
     padding-bottom: 30px;
-    margin-bottom: 20px;1
+    margin-bottom: 20px;
     
   }
   #text{

@@ -2,12 +2,13 @@
 $(document).ready(function(){
     $("#design-image").click(function(){
       $("#design-image").slideDown('').hide('');
-      $("#design").show('');
+     $("#design").show('');
     });
     $("#design").click(function(){
       $("#design").slideUp('');
       $("#design-image").slideDown('');
     });
+    
   });
 
 
@@ -36,59 +37,59 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#first").mouseover(function(){
-      $("#overlay").show();
+      $("#tile1").show();
     }).mouseout(function(){
-      $("#overlay").hide();
+      $("#tile1").hide();
     });
   });  
   $(document).ready(function(){
     $("#second").mouseover(function(){
-      $("#overlay2").show();
+      $("#tile2").show();
     }).mouseout(function(){
-      $("#overlay2").hide();
+      $("#tile2").hide();
     });
   });   
   $(document).ready(function(){
     $("#third").mouseover(function(){
-      $("#overlay3").show();
+      $("#tile3").show();
     }).mouseout(function(){
-      $("#overlay3").hide();
+      $("#tile3").hide();
     });
   });   
   
   $(document).ready(function(){
     $("#fourth").mouseover(function(){
-      $("#overlay4").show();
+      $("#tile3").show();
     }).mouseout(function(){
-      $("#overlay4").hide();
+      $("#tile3").hide();
     });
   });  
   $(document).ready(function(){
     $("#fifth").mouseover(function(){
-      $("#overlay5").show();
+      $("#tile3").show();
     }).mouseout(function(){
-      $("#overlay5").hide();
+      $("#tile3").hide();
     });
   });    
   $(document).ready(function(){
     $("#sixth").mouseover(function(){
-      $("#overlay6").show();
+      $("#tile6").show();
     }).mouseout(function(){
-      $("#overlay6").hide();
+      $("#tile6").hide();
     });
   });   
   $(document).ready(function(){
     $("#seventh").mouseover(function(){
-      $("#overlay7").show();
+      $("#tile7").show();
     }).mouseout(function(){
-      $("#overlay7").hide();
+      $("#tile7").hide();
     });
   });  
   $(document).ready(function(){
     $("#eigth").mouseover(function(){
-      $("#overlay8").show();
+      $("#tile8").show();
     }).mouseout(function(){
-      $("#overlay8").hide();
+      $("#tile8").hide();
     });
   });  
 
